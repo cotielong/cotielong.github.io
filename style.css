@@ -4,11 +4,11 @@
 }
 
 body { 
-    background-color: #333; 
+    background-color: #fff; 
 }
 
 p { 
-    color: #660033; 
+    color: #4d0000; 
     font-family: Helvetica Neue; 
     font-size: 17px; 
     line-height: 24px; 
@@ -17,7 +17,7 @@ p {
 }
 
 a { 
-    color: #660033; 
+    color: #4d0000; 
     font-weight: bold; 
     text-decoration: none; 
     border-bottom: 1px solid rgba(255,255,255,0.3); 
@@ -35,7 +35,7 @@ a:hover {
 }
 
 #about { 
-    width: 360px; 
+    width: 380px; 
     padding: 50px 0 0 150px; 
     margin: -35px 50px 0 auto !important; 
 }
