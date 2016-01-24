@@ -1,18 +1,23 @@
 
 * { padding: 0; 
     margin: 0; 
+    font-family: Helvetica Neue;
 }
 
 body { 
-    background-color: #fff; 
+    background-color: #e5e5ff; 
+}
+
+h1{
+    color: #ffb3b3;
+    font-size: 34px;
 }
 
 p { 
-    color: #4d0000; 
-    font-family: Helvetica Neue; 
-    font-size: 17px; 
-    line-height: 24px; 
-    margin-bottom: 22px; 
+    color: #4d0000;  
+    font-size: 20px; 
+    line-height: 20px; 
+    margin-bottom: 10px; 
     -webkit-font-smoothing: antialiased; 
 }
 
@@ -24,29 +29,16 @@ a {
 }
 
 a:hover { 
-    color: #990000; 
     border-bottom: 1px solid rgba(255,255,255,1); 
 }
 
-#monogram { 
-    width: 50px; 
-    padding: 30px 0 0 0; 
-    margin: 0 auto 0 50px; 
-}
-
 #about { 
-    width: 380px; 
-    padding: 50px 0 0 150px; 
-    margin: -35px 50px 0 auto !important; 
+    width: 390px; 
+    padding: 50px 0 0 10px; 
+    margin: 25px 900px 0 auto !important; 
 }
 
 @media (max-width: 767px) {
-    #monogram { 
-        position: relative; 
-        width: auto; 
-        padding: 20px; 
-        margin: 0; 
-        }
     #about { 
         position: relative; 
         width: auto; 
